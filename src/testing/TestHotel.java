@@ -1,11 +1,13 @@
 package testing;
 
-/* Uncomment the below code to test your application
+// Uncomment the below code to test your application
 
 import model.Hotel;
 import java.time.LocalDate;
 import static org.junit.Assert.*;
 import org.junit.Test;
+import services.Booking;
+import services.FareCalculator;
 
 public class TestHotel {
 	LocalDate ld1 = LocalDate.of(2020, 02, 03);
@@ -62,4 +64,4 @@ public class TestHotel {
 	}
 
 }
-*/
+

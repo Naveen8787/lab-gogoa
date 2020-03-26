@@ -1,18 +1,17 @@
 package testing;
-
-/* Uncomment the below code to test your application
-
 import model.Train;
 import java.time.LocalDate;
-import static org.junit.Assert.*;  
+import static org.junit.Assert.assertEquals; 
 import org.junit.Test;
+import services.Booking;
+import services.FareCalculator;
 
 public class TestTrain {
 	LocalDate ld = LocalDate.of(2020, 02, 03);
 	Train train = new Train(2,1500,"nonac",ld);
 	
-	@Test
-	public void testGetNoOfPersonMethod() {
+	@Test 
+	void testGetNoOfPersonMethod() {
 		train.setNoOfPersons(5);
 		assertEquals(5,train.getNoOfPersons());
 		train.setNoOfPersons(1);
@@ -64,4 +63,4 @@ public class TestTrain {
 	}
 }
 
-*/
+

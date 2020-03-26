@@ -1,11 +1,12 @@
 package testing;
 
-/* Uncomment the below code to test your application
+// Uncomment the below code to test your application
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-
+import services.Booking;
+import services.FareCalculator;
 public class TestRunner {
 	public static void main(String[] args) {
 		Result result = JUnitCore.runClasses(TestSuite.class);
@@ -17,4 +18,4 @@ public class TestRunner {
 		System.out.println(result.wasSuccessful());
 	}
 }
-*/
+

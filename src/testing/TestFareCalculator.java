@@ -1,6 +1,6 @@
 package testing;
 
-/* Uncomment the below code to test your application
+//Uncomment the below code to test your application
 
 import static org.junit.Assert.*;
 
@@ -75,7 +75,7 @@ public class TestFareCalculator {
 		}
 	}
 	
-	@Test
+	@Test 
 	public void testTrainMethod() {
 		LocalDate ld = LocalDate.of(2020, 02, 03);
 		Train train = new Train(2,1500,"nonac",ld);
@@ -89,4 +89,3 @@ public class TestFareCalculator {
 		}
 	}
 }
-*/

@@ -1,10 +1,8 @@
 package testing;
-
-/* Uncomment the below code to test your application
+//Uncomment the below code to test your application
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-
 import services.Booking;
 
 public class TestBooking {
@@ -23,4 +21,4 @@ public class TestBooking {
 		}
 	}
 }
-*/
+
